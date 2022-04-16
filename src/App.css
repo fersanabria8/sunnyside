@@ -336,7 +336,7 @@ nav .ul-menu
   flex-direction: row;
 }
 .images-wrapper img{
-  width: 100%;
+  width: 25%;
   height: 100%;
   object-fit: cover;
 }
@@ -619,7 +619,6 @@ nav .ul-menu
   object-fit: cover;
   overflow: hidden;
 }
-
 
 /* end - Images */
 
