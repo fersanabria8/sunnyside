@@ -330,8 +330,9 @@ nav .ul-menu
 /* start - Images */
 
 .images-wrapper{
-  /* height: 450px; */
+  /* height: 460px; */
   width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: row;
 }
