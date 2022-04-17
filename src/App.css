@@ -324,11 +324,9 @@ nav .ul-menu
 .text-testimonials span{
   color:hsl(213, 9%, 80%);
 }
-
 /* end - testimonials */
 
 /* start - Images */
-
 .images-wrapper{
   /* height: 460px; */
   width: 100%;
@@ -341,7 +339,6 @@ nav .ul-menu
   height: 100%;
   object-fit: cover;
 }
-
 /* end - Images */
 
 /* start - Footer */
