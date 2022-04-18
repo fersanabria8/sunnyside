@@ -1,5 +1,5 @@
-https://sparkly-platypus-6f80f4.netlify.app/ web live!
-https://lucky-cocada-cef0e8.netlify.app/
+https://warm-stardust-21bb62.netlify.app/ web live!
+
 
 # Frontend Mentor - Sunnyside agency landing page
 
