@@ -6,11 +6,32 @@ import sugarcubes from '../../assets/images/desktop/image-gallery-sugarcubes.jpg
 
 export const Images = () => {
   return (
-    <div className="images-wrapper">
-      <img src={ milkbottles } alt="" />
-      <img src={ orangefruit } alt="" />
-      <img src={ cone } alt="" />
-      <img src={ sugarcubes } alt="" />
+    <div className="images-container">
+        <div>
+          <picture>
+            <source media="(min-width:768px)" srcset={ milkbottles } />
+            <img className='img-cfg' src={ milkbottles } alt="" />  
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source media="(min-width:768px)" srcset={ orangefruit } />
+            <img className='img-cfg' src={ orangefruit } alt="" />
+          </picture>
+        </div>
+        <div>
+          <picture>
+          <source media="(min-width:768px )" srcset={ cone } />
+          <img className='img-cfg' src={ cone } alt="" />
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source media="(min-width:768px  )" srcset={ sugarcubes } />
+            <img className='img-cfg' src={ sugarcubes } alt="" />
+          </picture>
+        </div>
+
     </div>
   )
 }

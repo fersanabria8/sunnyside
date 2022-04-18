@@ -327,18 +327,31 @@ nav .ul-menu
 /* end - testimonials */
 
 /* start - Images */
-.images-wrapper{
-  /* height: 460px; */
-  width: 100%;
-  max-width: 1440px;
-  display: flex;
-  flex-direction: row;
+
+.images-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.images-wrapper img{
-  width: 25%;
+
+.img-cfg{
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+
+/* .images-container{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+.imges-wrapper img{
+  width: 25%; 
+  height: 100%;
+  object-fit: cover; 
+
+} */
+
 /* end - Images */
 
 /* start - Footer */
@@ -604,18 +617,16 @@ nav .ul-menu
 
 /* start - Images */
 
-.images-wrapper{
-  /* height: 450px; */
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.images-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
-.images-wrapper img{
-  width: 50%;
-  height: 200px;
+
+.img-cfg{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  overflow: hidden;
 }
 
 /* end - Images */
